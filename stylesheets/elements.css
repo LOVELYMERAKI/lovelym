@@ -8,7 +8,7 @@ h1 {
   font-weight: 300;
   margin: 0px;
 }
-@media all and (max-width: 739px) {
+@media all and (max-width: 800px) {
   /* line 4, ../sass/elements.scss */
   h1 {
     text-align: center;

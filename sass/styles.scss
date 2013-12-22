@@ -12,12 +12,6 @@ body {
       position: absolute;
       left: 0;
     }
-    @include breakpoint(narrow) {
-      width: 90%;
-      position: absolute;
-      left: 0;
-      margin-left: 5%;
-    }
     @include breakpoint(normal) {
       width: 960px;
       position: absolute;
