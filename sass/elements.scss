@@ -3,6 +3,10 @@
 
 h1 {
   @include title_style;
+  @include breakpoint(mobile) {
+    text-align: center;
+    font-size: 135px;
+  }
 }
 
 h2 {

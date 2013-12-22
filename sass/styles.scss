@@ -7,7 +7,8 @@ body {
   #wrapper {
     @include breakpoint(mobile) {
       width: 90%;
-      margin-left: 30px;
+      margin-left: 5%;
+      margin-right: 5%;
       position: absolute;
       left: 0;
     }
@@ -29,6 +30,12 @@ body {
 }
 
 .nav {
+  @include breakpoint(mobile) {
+    height: 80px;
+    a {
+      font-size: 65px;
+    }
+  }
   @include nav;
   .nav-a {
     font-family: 'Open Sans Condensed', sans-serif;
