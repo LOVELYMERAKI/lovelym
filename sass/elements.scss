@@ -1,0 +1,30 @@
+@import 'base';
+@import 'custom';
+
+h1 {
+  @include title_style;
+}
+
+h2 {
+  @include title_style;
+}
+
+h3 {
+  color: $paragraph;
+}
+
+h4 {
+  color: $paragraph;
+}
+
+p, li, ul {
+  @include basic;
+}
+
+a {
+  text-decoration: none;
+  color: $burn;
+  font-family: $handWrite;
+  font-size: 30px;
+  font-weight: bold;
+}

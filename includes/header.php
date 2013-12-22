@@ -2,7 +2,7 @@
 
 <div id="header">
 
-        <h2><?php echo $heading ?></h2>
+        <h1><?php echo $heading ?></h1>
 
 </div> <!-- end #header -->
 

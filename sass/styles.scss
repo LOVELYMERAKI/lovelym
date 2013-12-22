@@ -1,0 +1,40 @@
+
+@import 'custom';
+@import 'base';
+
+body {
+  #wrapper {
+    @include breakpoint(mobile) {
+      width: 90%;
+      margin-left: 30px;
+      position: absolute;
+      left: 0;
+    }
+    @include breakpoint(narrow) {
+      width: 90%;
+      position: absolute;
+      left: 0;
+      margin-left: 5%;
+    }
+    @include breakpoint(normal) {
+      width: 960px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -20%;
+      margin-left: -25%;
+    }
+  }
+}
+
+.nav {
+  @include nav;
+  .nav-a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+  }
+}
+
+.hidden {
+  display: none;
+}

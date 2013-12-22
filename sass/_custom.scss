@@ -1,0 +1,43 @@
+@import 'base';
+
+@mixin title_style {
+  padding: 5px 0px;
+  font-size: 100px;
+  letter-spacing: -10px;
+  font-family: 'Amatic SC', cursive;
+  color: $burn;
+  font-weight: 300;
+  margin: 0px;
+}
+
+@mixin basic {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  color: $paragraph;
+  padding: 0px 30px;
+}
+
+@mixin nav {
+  width: 100%;
+  background: $lightGrey;
+  height: 40px;
+  box-shadow: 5px 5px 5px rgba(190, 84, 0, 0.46);
+  border-bottom: 5px solid rgba(190, 84, 0, 0.21);
+  border-radius: 15px;
+  
+}
+
+$mobile: "all and (max-width: 739px)";
+$narrow: "all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)";
+$normal: "all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)";
+
+@mixin breakpoint($type) {
+  @if $type == narrow {
+    @media #{$narrow} { @content; }
+  } @else if $type == normal {
+    @media #{$normal} { @content; }
+  } @else if $type == mobile {
+    @media #{$mobile} { @content; }
+  }
+}
+
