@@ -3,6 +3,7 @@
 @import 'base';
 
 body {
+  @include breakpoint(mobile);
   #wrapper {
     @include breakpoint(mobile) {
       width: 90%;

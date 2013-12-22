@@ -1,5 +1,5 @@
 @media all and (max-width: 739px) {
-  /* line 6, ../sass/styles.scss */
+  /* line 7, ../sass/styles.scss */
   body #wrapper {
     width: 90%;
     margin-left: 30px;
@@ -8,7 +8,7 @@
   }
 }
 @media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation: landscape) {
-  /* line 6, ../sass/styles.scss */
+  /* line 7, ../sass/styles.scss */
   body #wrapper {
     width: 90%;
     position: absolute;
@@ -17,7 +17,7 @@
   }
 }
 @media all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
-  /* line 6, ../sass/styles.scss */
+  /* line 7, ../sass/styles.scss */
   body #wrapper {
     width: 960px;
     position: absolute;
@@ -28,7 +28,7 @@
   }
 }
 
-/* line 30, ../sass/styles.scss */
+/* line 31, ../sass/styles.scss */
 .nav {
   width: 100%;
   background: #d5d5d5;
@@ -37,13 +37,13 @@
   border-bottom: 5px solid rgba(190, 84, 0, 0.21);
   border-radius: 15px;
 }
-/* line 32, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 .nav .nav-a {
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
 }
 
-/* line 38, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 .hidden {
   display: none;
 }
