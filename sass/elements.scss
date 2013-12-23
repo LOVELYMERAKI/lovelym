@@ -49,6 +49,7 @@ a {
 img {
   @include breakpoint(normal) {
     height: 50px;
+  }
 }
 
 .kitty {
