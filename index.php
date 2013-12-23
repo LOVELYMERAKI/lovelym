@@ -40,7 +40,7 @@
 
 <div id="p1" class="hidden">
 <p>
-This is a site made for my beautiful friend Paige! It's just a basic set-up, but hopefully it's enough to get her going on her web-dev career/world domination MWAHAHAHAHA
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
 </p>
 </div>
 
@@ -50,14 +50,7 @@ This is a site made for my beautiful friend Paige! It's just a basic set-up, but
 
 <div id="p2" class="hidden">
 <p>
-
-So what's going on here? Well here's the specs:
-<ul>
-<li> You now have your domain! lovelymeraki.com!!
-<li> You also have a rackspace server for hosting!
-<li> I've set you up with Git so you can easily work locally and push to you production site! (Hey it's how I built it)
-<li> Less important, but you also have a 24/7 support contract with me! Haha not very exciting, but any help you need I'm here :)
-</ul>
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
 </p>
 </div>
 
@@ -67,9 +60,7 @@ So what's going on here? Well here's the specs:
 
 <div id="p3" class="hidden">
 <p>
-
-Well, if there's one thing I wish I knew/had know more about it was the server side and version control aspects of web development so I though cooking this up was a good way of getting that under control for you! Now you can build, push, and pull your way to success!
-
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus etLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
 </p>
 </div>
 <img src="img/c1.png" class="cloud-1">
