@@ -76,9 +76,11 @@ body #wrapper {
   bottom: 10px;
 }
 
-/* line 63, ../sass/styles.scss */
-.title {
-  position: relative;
-  display: inline-block;
-  left: -205px;
+@media all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+  /* line 63, ../sass/styles.scss */
+  .title {
+    position: relative;
+    display: inline-block;
+    left: -205px;
+  }
 }

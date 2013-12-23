@@ -47,5 +47,13 @@ a {
 }
 
 img {
-  height: 50px;
+  @include breakpoint(normal) {
+    height: 50px;
 }
+
+.kitty {
+  @include breakpoint(mobile) {
+    display: none;
+  }
+}
+

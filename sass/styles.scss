@@ -61,7 +61,9 @@ body {
 }
 
 .title {
-  position: relative;
-  display: inline-block;
-  left: -205px;
+  @include breakpoint(normal) {
+    position: relative;
+    display: inline-block;
+    left: -205px;
+  }
 }
