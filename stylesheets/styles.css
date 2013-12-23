@@ -60,27 +60,47 @@ body #wrapper {
   display: none;
 }
 
-/* line 49, ../sass/styles.scss */
-.cloud-1 {
-  position: relative;
-  left: 900px;
-  bottom: 90px;
-  height: 200px;
-}
-
-/* line 56, ../sass/styles.scss */
-.cloud-2 {
-  height: 170px;
-  left: -70px;
-  position: relative;
-  bottom: 10px;
+@media all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+  /* line 49, ../sass/styles.scss */
+  .cloud-1 {
+    position: relative;
+    left: 900px;
+    bottom: 90px;
+    height: 200px;
+  }
 }
 
 @media all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
-  /* line 63, ../sass/styles.scss */
+  /* line 58, ../sass/styles.scss */
+  .cloud-2 {
+    height: 170px;
+    left: -70px;
+    position: relative;
+    bottom: 10px;
+  }
+}
+
+@media all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+  /* line 67, ../sass/styles.scss */
   .title {
     position: relative;
     display: inline-block;
     left: -205px;
+  }
+}
+
+@media all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+  /* line 75, ../sass/styles.scss */
+  .sleepy-kitty {
+    display: none;
+  }
+}
+@media all and (max-device-width: 767px) {
+  /* line 75, ../sass/styles.scss */
+  .sleepy-kitty {
+    position: relative;
+    height: 400px;
+    left: 50%;
+    margin-left: -26%;
   }
 }

@@ -47,17 +47,21 @@ body {
 }
 
 .cloud-1 {
-  position: relative;
-  left: 900px;
-  bottom: 90px;
-  height: 200px;
+  @include breakpoint(normal) {
+    position: relative;
+    left: 900px;
+    bottom: 90px;
+    height: 200px;
+  }
 }
 
 .cloud-2 {
-  height: 170px;
-  left: -70px;
-  position: relative;
-  bottom: 10px;
+  @include breakpoint(normal) {
+    height: 170px;
+    left: -70px;
+    position: relative;
+    bottom: 10px;
+  }
 }
 
 .title {
@@ -65,5 +69,17 @@ body {
     position: relative;
     display: inline-block;
     left: -205px;
+  }
+}
+
+.sleepy-kitty {
+  @include breakpoint(normal) {
+    display: none;
+  }
+  @include breakpoint(mobile) {
+    position: relative;
+    height: 400px;
+    left: 50%;
+    margin-left: -26%;
   }
 }
