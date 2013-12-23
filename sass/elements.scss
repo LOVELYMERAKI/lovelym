@@ -3,6 +3,9 @@
 
 h1 {
   @include title_style;
+  @include breakpoint(normal) {
+    font-size: 100px;
+  }
   @include breakpoint(mobile) {
     text-align: center;
     font-size: 135px;

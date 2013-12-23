@@ -1,14 +1,19 @@
 /* line 4, ../sass/elements.scss */
 h1 {
   padding: 5px 0px;
-  font-size: 100px;
   letter-spacing: -10px;
   font-family: 'Amatic SC', cursive;
   color: #fc7449;
   font-weight: 300;
   margin: 0px;
 }
-@media only screen and (max-width: 767px) {
+@media all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+  /* line 4, ../sass/elements.scss */
+  h1 {
+    font-size: 100px;
+  }
+}
+@media all and (max-device-width: 767px) {
   /* line 4, ../sass/elements.scss */
   h1 {
     text-align: center;
@@ -16,10 +21,9 @@ h1 {
   }
 }
 
-/* line 12, ../sass/elements.scss */
+/* line 15, ../sass/elements.scss */
 h2 {
   padding: 5px 0px;
-  font-size: 100px;
   letter-spacing: -10px;
   font-family: 'Amatic SC', cursive;
   color: #fc7449;
@@ -27,17 +31,17 @@ h2 {
   margin: 0px;
 }
 
-/* line 16, ../sass/elements.scss */
+/* line 19, ../sass/elements.scss */
 h3 {
   color: #646464;
 }
 
-/* line 20, ../sass/elements.scss */
+/* line 23, ../sass/elements.scss */
 h4 {
   color: #646464;
 }
 
-/* line 24, ../sass/elements.scss */
+/* line 27, ../sass/elements.scss */
 p, li, ul {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 18px;
@@ -45,7 +49,7 @@ p, li, ul {
   padding: 0px 30px;
 }
 
-/* line 28, ../sass/elements.scss */
+/* line 31, ../sass/elements.scss */
 a {
   text-decoration: none;
   color: #fc7449;
