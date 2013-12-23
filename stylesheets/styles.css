@@ -69,9 +69,15 @@ body #wrapper {
     height: 200px;
   }
 }
+@media all and (max-device-width: 767px) {
+  /* line 49, ../sass/styles.scss */
+  .cloud-1 {
+    display: none;
+  }
+}
 
 @media all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
-  /* line 58, ../sass/styles.scss */
+  /* line 61, ../sass/styles.scss */
   .cloud-2 {
     height: 170px;
     left: -70px;
@@ -79,9 +85,15 @@ body #wrapper {
     bottom: 10px;
   }
 }
+@media all and (max-device-width: 767px) {
+  /* line 61, ../sass/styles.scss */
+  .cloud-2 {
+    display: none;
+  }
+}
 
 @media all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
-  /* line 67, ../sass/styles.scss */
+  /* line 73, ../sass/styles.scss */
   .title {
     position: relative;
     display: inline-block;
@@ -90,13 +102,13 @@ body #wrapper {
 }
 
 @media all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
-  /* line 75, ../sass/styles.scss */
+  /* line 81, ../sass/styles.scss */
   .sleepy-kitty {
     display: none;
   }
 }
 @media all and (max-device-width: 767px) {
-  /* line 75, ../sass/styles.scss */
+  /* line 81, ../sass/styles.scss */
   .sleepy-kitty {
     position: relative;
     height: 400px;
