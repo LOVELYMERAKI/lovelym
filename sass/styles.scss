@@ -3,37 +3,36 @@
 @import 'base';
 
 body {
-  @include breakpoint(mobile);
   #wrapper {
+    width: 960px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20%;
+    margin-left: -25%;
     @include breakpoint(mobile) {
       width: 90%;
       margin-left: 5%;
       margin-right: 5%;
       position: absolute;
       left: 0;
-    }
-    @include breakpoint(normal) {
-      width: 960px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-top: -20%;
-      margin-left: -25%;
+      top: 0;
+      margin-top: 0;
     }
   }
 }
 
 .nav {
+  @include nav;
+  .nav-a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+  }
   @include breakpoint(mobile) {
     height: 80px;
     a {
       font-size: 65px;
     }
-  }
-  @include nav;
-  .nav-a {
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align: center;
   }
 }
 

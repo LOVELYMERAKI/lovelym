@@ -1,26 +1,26 @@
+/* line 6, ../sass/styles.scss */
+body #wrapper {
+  width: 960px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20%;
+  margin-left: -25%;
+}
 @media only screen and (max-width: 767px) {
-  /* line 7, ../sass/styles.scss */
+  /* line 6, ../sass/styles.scss */
   body #wrapper {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     position: absolute;
     left: 0;
-  }
-}
-@media only screen and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
-  /* line 7, ../sass/styles.scss */
-  body #wrapper {
-    width: 960px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -20%;
-    margin-left: -25%;
+    top: 0;
+    margin-top: 0;
   }
 }
 
-/* line 26, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
 .nav {
   width: 100%;
   background: #d5d5d5;
@@ -29,23 +29,23 @@
   border-bottom: 5px solid rgba(190, 84, 0, 0.21);
   border-radius: 15px;
 }
-@media only screen and (max-width: 767px) {
-  /* line 26, ../sass/styles.scss */
-  .nav {
-    height: 80px;
-  }
-  /* line 29, ../sass/styles.scss */
-  .nav a {
-    font-size: 65px;
-  }
-}
-/* line 34, ../sass/styles.scss */
+/* line 27, ../sass/styles.scss */
 .nav .nav-a {
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
 }
+@media only screen and (max-width: 767px) {
+  /* line 25, ../sass/styles.scss */
+  .nav {
+    height: 80px;
+  }
+  /* line 33, ../sass/styles.scss */
+  .nav a {
+    font-size: 65px;
+  }
+}
 
-/* line 40, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 .hidden {
   display: none;
 }
