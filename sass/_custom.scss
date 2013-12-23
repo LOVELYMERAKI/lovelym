@@ -27,11 +27,12 @@
   
 }
 
-$mobile: "all and (max-width: 800px)";
+$mobile: "all and (max-width: 767px)";
+$mobile_p: "all and (max-width: 767px) and (orientation:portrait)";
 $normal: "all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)";
 
 @mixin breakpoint($type) {
-  @if $type == narrow {
+  @if $type == normal {
     @media #{$normal} { @content; }
   } @else if $type == mobile {
     @media #{$mobile} { @content; }
