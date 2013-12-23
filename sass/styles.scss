@@ -35,9 +35,9 @@ body {
     text-align: center;
   }
   @include breakpoint(mobile) {
-    height: 80px;
+    height: 100px;
     a {
-      font-size: 65px;
+      font-size: 80px;
     }
   }
 }

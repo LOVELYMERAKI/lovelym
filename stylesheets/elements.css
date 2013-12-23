@@ -17,7 +17,7 @@ h1 {
   /* line 4, ../sass/elements.scss */
   h1 {
     text-align: center;
-    font-size: 135px;
+    font-size: 185px;
   }
 }
 
@@ -44,12 +44,23 @@ h4 {
 /* line 27, ../sass/elements.scss */
 p, li, ul {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 18px;
   color: #646464;
   padding: 0px 30px;
 }
+@media all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
+  /* line 27, ../sass/elements.scss */
+  p, li, ul {
+    font-size: 18px;
+  }
+}
+@media all and (max-device-width: 767px) {
+  /* line 27, ../sass/elements.scss */
+  p, li, ul {
+    font-size: 40px;
+  }
+}
 
-/* line 31, ../sass/elements.scss */
+/* line 37, ../sass/elements.scss */
 a {
   text-decoration: none;
   color: #fc7449;

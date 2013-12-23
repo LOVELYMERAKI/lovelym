@@ -47,11 +47,11 @@ body #wrapper {
 @media all and (max-device-width: 767px) {
   /* line 27, ../sass/styles.scss */
   .nav {
-    height: 80px;
+    height: 100px;
   }
   /* line 39, ../sass/styles.scss */
   .nav a {
-    font-size: 65px;
+    font-size: 80px;
   }
 }
 
