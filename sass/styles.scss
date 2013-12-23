@@ -5,7 +5,7 @@
 body {
   @include breakpoint(mobile);
   #wrapper {
-    @include breakpoint(mobile_p) {
+    @include breakpoint(mobile) {
       width: 90%;
       margin-left: 5%;
       margin-right: 5%;
@@ -24,7 +24,7 @@ body {
 }
 
 .nav {
-  @include breakpoint(mobile_p) {
+  @include breakpoint(mobile) {
     height: 80px;
     a {
       font-size: 65px;

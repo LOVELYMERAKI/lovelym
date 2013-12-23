@@ -27,9 +27,9 @@
   
 }
 
-$mobile: "all and (max-width: 767px)";
-$mobile_p: "all and (max-width: 767px) and (orientation:portrait)";
-$normal: "all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)";
+$mobile: "only screen and (max-width: 767px)";
+$mobile_p: "only screen and (max-width: 767px) and (orientation:portrait)";
+$normal: "only screen and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)";
 
 @mixin breakpoint($type) {
   @if $type == normal {
