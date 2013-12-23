@@ -72,7 +72,7 @@ Well, if there's one thing I wish I knew/had know more about it was the server s
 
 </p>
 </div>
-
+<img src="img/c1.png" class="cloud-1">
 </div> <!-- end #content -->
 
 

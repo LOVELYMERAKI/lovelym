@@ -70,6 +70,13 @@ a {
 @media all and (min-width: 1000px) and (min-height: 700px) and (min-device-width: 1000px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation: landscape) {
   /* line 37, ../sass/elements.scss */
   a {
-    font-size: 30px;
+    font-size: 35px;
+    position: relative;
+    bottom: 10px;
   }
+}
+
+/* line 49, ../sass/elements.scss */
+img {
+  height: 50px;
 }
