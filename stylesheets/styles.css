@@ -112,7 +112,7 @@ body #wrapper {
   .sleepy-kitty {
     position: relative;
     height: 400px;
-    left: 50%;
-    margin-left: -26%;
+    margin-left: 25px;
+    margin-bottom: -130px;
   }
 }
