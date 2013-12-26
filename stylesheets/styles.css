@@ -12,7 +12,7 @@ body #wrapper {
     width: 960px;
   }
 }
-@media all and (max-device-width: 767px) {
+@media all and (max-device-width: 767px) and (max-width: 767px) {
   /* line 6, ../sass/styles.scss */
   body #wrapper {
     width: 90%;
@@ -44,7 +44,7 @@ body #wrapper {
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
 }
-@media all and (max-device-width: 767px) {
+@media all and (max-device-width: 767px) and (max-width: 767px) {
   /* line 27, ../sass/styles.scss */
   .nav {
     height: 120px;
@@ -69,7 +69,7 @@ body #wrapper {
     height: 200px;
   }
 }
-@media all and (max-device-width: 767px) {
+@media all and (max-device-width: 767px) and (max-width: 767px) {
   /* line 49, ../sass/styles.scss */
   .cloud-1 {
     display: none;
@@ -85,7 +85,7 @@ body #wrapper {
     bottom: 10px;
   }
 }
-@media all and (max-device-width: 767px) {
+@media all and (max-device-width: 767px) and (max-width: 767px) {
   /* line 61, ../sass/styles.scss */
   .cloud-2 {
     display: none;
@@ -107,7 +107,7 @@ body #wrapper {
     display: none;
   }
 }
-@media all and (max-device-width: 767px) {
+@media all and (max-device-width: 767px) and (max-width: 767px) {
   /* line 81, ../sass/styles.scss */
   .sleepy-kitty {
     position: relative;

@@ -40,7 +40,7 @@
 
 <div id="p1" class="hidden">
 <p>
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+THIS IS A SITE FOR MY BEAUTIFUL, TALENTED, AMAZING BEST FRIEND! It's not much, but it's hopefully enough to get her started on her quest for world domination!!
 </p>
 </div>
 
@@ -50,7 +50,11 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 
 <div id="p2" class="hidden">
 <p>
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+What you get with this set up is:
+<br>1 year of free rackspace server for hosting whatever your heart desires
+<br>1 free year of domain name (duh) the one you're currently on
+<br>Git access to do some version control on your site
+<br>And whatever I can help you out with, whenever you neeeed it
 </p>
 </div>
 
@@ -60,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
 
 <div id="p3" class="hidden">
 <p>
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus etLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+Just cause! Well mostly because, I think it'd be a good way to get you a head start on your web dev stuff! We may need to get everything set up for you locally, and get you some credentials to get into this thing, but that's the easy part haha
 </p>
 </div>
 <img src="img/c1.png" class="cloud-1">
